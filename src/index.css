@@ -34,7 +34,7 @@
   }
   
   body {
-    @apply bg-neo-bg text-neo-text antialiased overflow-x-hidden min-h-screen;
+    @apply bg-[#111111] text-neo-text antialiased overflow-x-hidden min-h-screen;
     font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
   }
 
@@ -71,5 +71,9 @@
   
   .glow-effect {
     @apply shadow-glow;
+  }
+  
+  .shadow-glow-orange {
+    box-shadow: 0 0 30px 5px rgba(255, 87, 34, 0.12);
   }
 }

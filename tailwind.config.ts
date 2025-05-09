@@ -65,9 +65,9 @@ export default {
 				},
 				neo: {
 					bg: '#1A1F2C',
-					highlight: '#9b87f5',
+					highlight: '#ff5722', // changed to orange to match Firebase
 					shadow: '#000000e6',
-					border: '#7E69AB',
+					border: '#ff5722',
 					text: '#FFFFFF',
 					muted: '#aaadb0'
 				}
@@ -81,7 +81,7 @@ export default {
 				'neo-inner': 'inset 2px 2px 5px rgba(0, 0, 0, 0.7), inset -2px -2px 5px rgba(255, 255, 255, 0.1)',
 				'neo-outer': '5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(255, 255, 255, 0.05)',
 				'neo-flat': '2px 2px 5px rgba(0, 0, 0, 0.5), -2px -2px 5px rgba(255, 255, 255, 0.05)',
-				'glow': '0 0 15px rgba(155, 135, 245, 0.5)'
+				'glow': '0 0 15px rgba(255, 87, 34, 0.2)' // changed to orange to match Firebase
 			},
 			keyframes: {
 				'accordion-down': {
@@ -103,8 +103,9 @@ export default {
 				'pulse-subtle': 'pulse-subtle 4s ease-in-out infinite'
 			},
 			backgroundImage: {
-				'gradient-dark': 'linear-gradient(145deg, #1A1F2C, #121418)',
-				'gradient-card': 'linear-gradient(145deg, rgba(26,31,44,0.9), rgba(18,20,24,0.9))'
+				'gradient-dark': 'linear-gradient(145deg, #1c1c1c, #121418)',
+				'gradient-card': 'linear-gradient(145deg, rgba(28,28,28,0.9), rgba(18,20,24,0.9))',
+				'gradient-firebase': 'linear-gradient(145deg, #ff5722, #ff8a65)'
 			}
 		}
 	},
