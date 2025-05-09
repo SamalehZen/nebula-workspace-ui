@@ -2,7 +2,7 @@
 import type { Config } from "tailwindcss";
 
 export default {
-	darkMode: ['class'],
+	darkMode: ["class"],
 	content: [
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
@@ -64,27 +64,12 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				neo: {
-					bg: {
-						DEFAULT: '#F1F1F1',
-						dark: '#1A1F2C'
-					},
-					highlight: '#ff5722',
-					shadow: {
-						DEFAULT: '#00000026',
-						dark: '#000000e6'
-					},
-					border: {
-						DEFAULT: '#e0e0e0',
-						dark: '#ff5722'
-					},
-					text: {
-						DEFAULT: '#333333',
-						dark: '#FFFFFF'
-					},
-					muted: {
-						DEFAULT: '#777777',
-						dark: '#aaadb0'
-					}
+					bg: '#1A1F2C',
+					highlight: '#9b87f5',
+					shadow: '#000000e6',
+					border: '#7E69AB',
+					text: '#FFFFFF',
+					muted: '#aaadb0'
 				}
 			},
 			borderRadius: {
@@ -93,13 +78,10 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			boxShadow: {
-				'neo-inner': 'inset 2px 2px 5px rgba(0, 0, 0, 0.1), inset -2px -2px 5px rgba(255, 255, 255, 0.5)',
-				'neo-inner-dark': 'inset 2px 2px 5px rgba(0, 0, 0, 0.7), inset -2px -2px 5px rgba(255, 255, 255, 0.1)',
-				'neo-outer': '5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px rgba(255, 255, 255, 0.8)',
-				'neo-outer-dark': '5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(255, 255, 255, 0.05)',
-				'neo-flat': '2px 2px 5px rgba(0, 0, 0, 0.1), -2px -2px 5px rgba(255, 255, 255, 0.8)',
-				'neo-flat-dark': '2px 2px 5px rgba(0, 0, 0, 0.5), -2px -2px 5px rgba(255, 255, 255, 0.05)',
-				'glow': '0 0 15px rgba(255, 87, 34, 0.2)'
+				'neo-inner': 'inset 2px 2px 5px rgba(0, 0, 0, 0.7), inset -2px -2px 5px rgba(255, 255, 255, 0.1)',
+				'neo-outer': '5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(255, 255, 255, 0.05)',
+				'neo-flat': '2px 2px 5px rgba(0, 0, 0, 0.5), -2px -2px 5px rgba(255, 255, 255, 0.05)',
+				'glow': '0 0 15px rgba(155, 135, 245, 0.5)'
 			},
 			keyframes: {
 				'accordion-down': {
@@ -121,11 +103,8 @@ export default {
 				'pulse-subtle': 'pulse-subtle 4s ease-in-out infinite'
 			},
 			backgroundImage: {
-				'gradient-dark': 'linear-gradient(145deg, #1c1c1c, #121418)',
-				'gradient-light': 'linear-gradient(145deg, #f8f8f8, #e8e8e8)',
-				'gradient-card': 'linear-gradient(145deg, rgba(28,28,28,0.9), rgba(18,20,24,0.9))',
-				'gradient-card-light': 'linear-gradient(145deg, rgba(248,248,248,0.9), rgba(232,232,232,0.9))',
-				'gradient-firebase': 'linear-gradient(145deg, #ff5722, #ff8a65)'
+				'gradient-dark': 'linear-gradient(145deg, #1A1F2C, #121418)',
+				'gradient-card': 'linear-gradient(145deg, rgba(26,31,44,0.9), rgba(18,20,24,0.9))'
 			}
 		}
 	},
