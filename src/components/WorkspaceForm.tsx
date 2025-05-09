@@ -27,7 +27,7 @@ const WorkspaceForm: React.FC = () => {
 
   return (
     <div className="w-full max-w-md">
-      <div className="neo-card overflow-hidden bg-white/90 dark:bg-[#1c1c1c]/90 border border-neutral-200/50 dark:border-neutral-800/50 rounded-xl shadow-lg dark:shadow-glow-orange transition-all duration-300">
+      <div className="neo-card overflow-hidden bg-white/90 dark:bg-[#1c1c1c]/90 border border-neutral-200/50 dark:border-neutral-800/50 rounded-xl shadow-lg shadow-glow-orange dark:shadow-glow-orange transition-all duration-300">
         <div className="px-6 pt-6 pb-4">
           <h1 className="text-2xl font-medium text-neutral-800 dark:text-white mb-6">New Workspace</h1>
           

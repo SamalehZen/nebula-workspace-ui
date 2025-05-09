@@ -63,6 +63,23 @@
   html {
     @apply scroll-smooth;
   }
+
+  /* Light mode specific styles */
+  .light table {
+    @apply bg-white/80 shadow-md border-neutral-200;
+  }
+
+  .light thead {
+    @apply bg-neutral-100 text-neutral-700;
+  }
+
+  .light tbody tr {
+    @apply border-neutral-200 hover:bg-neutral-50;
+  }
+
+  .light th, .light td {
+    @apply text-neutral-800;
+  }
 }
 
 @layer utilities {
@@ -97,5 +114,10 @@
   
   .shadow-glow-orange {
     box-shadow: 0 0 30px 5px rgba(255, 87, 34, 0.12);
+  }
+
+  /* Light mode glow effect with 80% opacity */
+  .light .shadow-glow-orange {
+    box-shadow: 0 0 30px 5px rgba(255, 87, 34, 0.8);
   }
 }

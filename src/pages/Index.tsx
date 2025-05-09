@@ -10,7 +10,7 @@ const Index = () => {
         <ThemeToggle />
       </div>
       <div className="mb-6 flex items-center">
-        <div className="w-8 h-8 mr-2 bg-gradient-to-br from-orange-400 to-red-400 dark:from-orange-500 dark:to-red-500 rounded-full"></div>
+        <div className="w-8 h-8 mr-2 bg-gradient-to-br from-orange-400 to-red-400 dark:from-orange-500 dark:to-red-500 rounded-full shadow-glow-orange"></div>
         <span className="text-neutral-800 dark:text-white/90 text-xl font-medium">Firebase Studio</span>
         <span className="ml-2 text-xs bg-neutral-200/70 text-neutral-600/70 dark:bg-neutral-700/70 dark:text-white/70 px-2 py-0.5 rounded">PREVIEW</span>
       </div>
