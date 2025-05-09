@@ -114,10 +114,30 @@
   
   .shadow-glow-orange {
     box-shadow: 0 0 30px 5px rgba(255, 87, 34, 0.12);
+    animation: police-glow-dark 5s infinite alternate;
   }
 
-  /* Light mode glow effect with 80% opacity */
+  /* Light mode glow effect with 80% opacity and police colors */
   .light .shadow-glow-orange {
     box-shadow: 0 0 30px 5px rgba(255, 87, 34, 0.8);
+    animation: police-glow-light 5s infinite alternate;
+  }
+  
+  @keyframes police-glow-light {
+    0%, 100% {
+      box-shadow: 0 0 30px 5px rgba(255, 0, 0, 0.8);
+    }
+    50% {
+      box-shadow: 0 0 30px 5px rgba(0, 0, 255, 0.8);
+    }
+  }
+  
+  @keyframes police-glow-dark {
+    0%, 100% {
+      box-shadow: 0 0 30px 5px rgba(255, 0, 0, 0.2);
+    }
+    50% {
+      box-shadow: 0 0 30px 5px rgba(0, 0, 255, 0.2);
+    }
   }
 }
